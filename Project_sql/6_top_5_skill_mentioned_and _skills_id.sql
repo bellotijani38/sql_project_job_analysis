@@ -1,5 +1,5 @@
 /*
-Quetion: wha is the top 5 skills frequently mentioned and skills_id wth the higest count?
+Quetion: what is the top 5 skills frequently mentioned and skills_id with the highest count?
 */
 
 

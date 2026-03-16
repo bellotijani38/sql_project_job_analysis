@@ -1,5 +1,5 @@
 /*
-Question: what are the top skills based on salary for a Data Enginner?
+Question: what are the top skills based on salary for a Data Engineer?
 */
 
 SELECT
