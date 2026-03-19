@@ -4,7 +4,8 @@ Question: what are the top skills based on salary for a Data Engineer?
 
 SELECT
     skills,
-    round(Avg(salary_year_avg), 0) as average_salary
+    rou
+    nd(Avg(salary_year_avg), 0) as average_salary
 from 
     skills_dim
 left join skills_job_dim on skills_dim.skill_id = skills_job_dim.skill_id
