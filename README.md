@@ -88,7 +88,7 @@ Pinterest-related roles
 
  Big tech companies dominate the high-paying roles, but smaller or lesser-known companies (like Mantys) can sometimes pay even more
 
-![alt text](Assets\ac84341e-e4f7-4b73-ae5b-ca9bf8a8fc64.png)
+![alt text](ac84341e-e4f7-4b73-ae5b-ca9bf8a8fc64.png)
 
 ### 2. Top skill required for a top-paying roles
 
@@ -172,7 +172,7 @@ Company: Engtal
 Pays: $325,000/year
 
 
-![alt text](Assets\af0d59b6-cdd4-4d30-81c6-466e83da470a.png)
+![alt text](af0d59b6-cdd4-4d30-81c6-466e83da470a.png)
 
 
 
@@ -235,7 +235,7 @@ Power BI  |    2,609          |     8.97%
 
 
 
-![alt text](Assets\unnamed-1.png)
+![alt text](unnamed-1.png)
 
 
 
@@ -281,7 +281,7 @@ Median Salary: $149,349
 The data suggests that while standard Data Engineering tools (like Kafka, Kubernetes, and Spark) are important, mastering niche languages or specialized database technologies can significantly increase earning potential.
 
 
-![alt text](Assets\unnamed.png)
+![alt text](unnamed.png)
 
 
 ### 5. The high demand and high salary skills for a data engineer job
@@ -329,7 +329,7 @@ Modern Data Stack: Expertise in Snowflake, Airflow, and dbt (though dbt is lower
 
 
 
-![alt text](Assets\unnamed-2.png)
+![alt text](unnamed-2.png)
 
 
 
@@ -363,7 +363,7 @@ Key Insights
 
 
 
-![alt text](Assets\unnamed-3.png)
+![alt text](unnamed-3.png)
 
 # Conclusions
 
