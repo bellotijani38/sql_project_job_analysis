@@ -342,7 +342,6 @@ LIMIT 5
 
 Here is the breakdown of the result of the top 5 skills frequently mentioned and skills_id with the highest count:
 
-# What I learnt
 
 # Conclusions
 
