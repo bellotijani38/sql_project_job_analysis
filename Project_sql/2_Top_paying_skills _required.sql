@@ -1,13 +1,12 @@
 /* 
-Question: what are the skill required for these top-paying roles?
+Question: what are the skill required for top-paying roles?
 */
 
 
 SELECT
     job_postings_fact.job_id,
-    skills_dim.skill_id,
     job_title,
-    skills,
+    skills_dim.skills,
     salary_year_avg,
     name as company_name
 from 

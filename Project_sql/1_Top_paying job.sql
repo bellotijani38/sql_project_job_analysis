@@ -1,5 +1,5 @@
 /*
-Question: What is the top-paying (10) companuy for data analysis jobs?
+Question: What is the top-paying (10) company for data analysis jobs?
 */
 
 
