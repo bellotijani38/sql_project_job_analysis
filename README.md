@@ -178,7 +178,8 @@ Pays: $325,000/year
 
 
 ### 3. Most in-demand skill for a data analysis role 
-what i did here is count the job_ids to identify the skills most dmanded for a data analysis roles anywhere
+
+I have just analyzed two different database related to data career to identify tends in salary and demand
 
 ```sql
 SELECT
@@ -198,66 +199,6 @@ ORDER BY
 LIMIT 10
 ```
 Here is breakdown for most demanded skill for a data analysis role anywhere:
-
-**Top-Paying Skills**
-The dataset highlights that specialized and niche skills often command the highest salaries.
-
-Assembly is the top-paying skill with an average salary of $192,500.
-
-Mongo and ggplot2 follow closely, both exceeding $175,000.
-
-Modern programming languages like Rust ($172,819) and functional languages like Clojure ($170,867) are among the top 5, reflecting a premium for developers who can work with high-performance or specialized paradigms.
-
-**Technology Trends**
-
-Specialized Databases: Beyond standard SQL, knowledge of Neo4j (graph database) and Redis (in-memory) commands high pay.
-
-Modern Infrastructure: Skills like Kubernetes, Terraform, and Ansible are present in the list, showing that DevOps/Infrastructure skills are highly valued for Data Engineers.
-
-Blockchain & Emerging Tech: Solidity (used for Ethereum smart contracts) appears in the top 10, indicating cross-disciplinary demand.
-
-**Salary Statistics (Top 50 Skills)**
-
-Mean Salary: $152,773
-
-Highest Salary: $192,500 (Assembly)
-
-Lowest in Top 50: $139,714
-
-Median Salary: $149,349
-
-The data suggests that while standard Data Engineering tools (like Kafka, Kubernetes, and Spark) are important, mastering niche languages or specialized database technologies can significantly increase earning potential.
-
-
-![alt text](unnamed.png)
-
-
-
-
-### 4. Top skill with the hihgest salary for a data engineer role
-
-Have just analyzed two different database related to data career to identify tends in salary and demand
-
-
-```sql
-SELECT
-    skills,
-    round(Avg(salary_year_avg), 0) as average_salary
-from 
-    skills_dim
-left join skills_job_dim on skills_dim.skill_id = skills_job_dim.skill_id
-left JOIN job_postings_fact on skills_job_dim.job_id = job_postings_fact.job_id
-WHERE
-    job_title_short = 'Data Engineer' and 
-    salary_year_avg is NOT NULL AND
-    job_location = 'Anywhere'
-GROUP BY
-    skills
-Order BY
-  average_salary DESC
-LIMIT 50
-```
-Here is the breakdon of the results for top paying for data engineer:
 
 **SQL is the Foundational Skill**
 
@@ -298,7 +239,55 @@ Power BI  |    2,609          |     8.97%
 ![alt text](unnamed-1.png)
 
 
+
+### 4. Top skill with the hihgest salary for a data engineer role
+
+
+
+
+```sql
+SELECT
+    skills,
+    round(Avg(salary_year_avg), 0) as average_salary
+from 
+    skills_dim
+left join skills_job_dim on skills_dim.skill_id = skills_job_dim.skill_id
+left JOIN job_postings_fact on skills_job_dim.job_id = job_postings_fact.job_id
+WHERE
+    job_title_short = 'Data Engineer' and 
+    salary_year_avg is NOT NULL AND
+    job_location = 'Anywhere'
+GROUP BY
+    skills
+Order BY
+  average_salary DESC
+LIMIT 50
+```
+Here is the breakdon of the results for top paying for data engineer:
+
+Modern Infrastructure: Skills like Kubernetes, Terraform, and Ansible are present in the list, showing that DevOps/Infrastructure skills are highly valued for Data Engineers.
+
+Blockchain & Emerging Tech: Solidity (used for Ethereum smart contracts) appears in the top 10, indicating cross-disciplinary demand.
+
+**Salary Statistics (Top 50 Skills)**
+
+Mean Salary: $152,773
+
+Highest Salary: $192,500 (Assembly)
+
+Lowest in Top 50: $139,714
+
+Median Salary: $149,349
+
+The data suggests that while standard Data Engineering tools (like Kafka, Kubernetes, and Spark) are important, mastering niche languages or specialized database technologies can significantly increase earning potential.
+
+
+![alt text](unnamed.png)
+
+
 ### 5. The high demand and high salary skills for a data engineer job
+
+
 
 ```sql
 SELECT 
