@@ -286,8 +286,11 @@ Cloud skills (Azure) and business intelligence tools (Looker) are emerging in th
 Skill   |  Demand Count | % of Top 10Demand
 --------------------------------------------
 SQL       |    7,291          |    25.05%
+
 Excel     |     4,611         |    15.84%
+
 Python    |    4,330          |     12.87%
+
 Power BI  |    2,609          |     8.97%
 
 
