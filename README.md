@@ -242,7 +242,7 @@ Power BI  |    2,609          |     8.97%
 
 ### 4. Top skill with the hihgest salary for a data engineer role
 
-
+Coducted a compehensive compaison of data job market by looking at two different angle: earning potential and market demand.
 
 
 ```sql
