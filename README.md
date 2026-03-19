@@ -236,6 +236,8 @@ The data suggests that while standard Data Engineering tools (like Kafka, Kubern
 
 ### 4. Top skill with the hihgest salary for a data engineer role
 
+Have just analyzed two different database related to data career to identify tends in salary and demand
+
 
 ```sql
 SELECT
@@ -281,14 +283,16 @@ Statistical tools like R and SAS still maintain a solid presence (combined ~13.7
 
 Cloud skills (Azure) and business intelligence tools (Looker) are emerging in the top 10, though they currently represent a smaller fraction of the total demand compared to core tools.
 
-Skill        Demand Count      % of Top 10 Demand
----------------------------------------------------
-SQL       |    7,291               25.05%
-Excel     |     4,611               15.84%
-Python          4,330               14.88%
-Tableau         3,745               12.87%
-Power BI        2,609               8.97%
+Skill   |  Demand Count | % of Top 10Demand
+--------------------------------------------
+SQL       |    7,291          |    25.05%
+Excel     |     4,611         |    15.84%
+Python    |    4,330          |     12.87%
+Power BI  |    2,609          |     8.97%
 
+
+
+![alt text](unnamed-1.png)
 
 
 ### 5. The high demand and high salary skills for a data engineer job
