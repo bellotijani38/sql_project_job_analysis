@@ -287,7 +287,7 @@ The data suggests that while standard Data Engineering tools (like Kafka, Kubern
 
 ### 5. The high demand and high salary skills for a data engineer job
 
-
+I performed a comprehensive evaluation of your data to identify the most valuable technical skills based on market demand and compensation.
 
 ```sql
 SELECT 
@@ -311,8 +311,32 @@ ORDER BY
 ```
 Here is the result of the highest demand skills and salary for a role of a data engineer:
 
+**Top 10 Skills by Demand vs. Salary**
+
+The visualizations highlight a clear distinction between fundamental skills and specialized infrastructure skills.
+
+Highest Demand (The Essentials): SQL (568 postings) and Python (535 postings) are the most sought-after skills in the dataset. While these are foundational and essential for most roles, their average salaries ($129k–$132k) are slightly lower than more specialized tools.
+
+Highest Salary (The Premium): Kubernetes ($158,190) and Kafka ($150,549) lead in compensation. These skills are often associated with complex data engineering and cloud infrastructure roles, which command a significant premium despite having fewer total job openings compared to SQL or Python.
+
+
+**Strategic Insights**
+
+The Foundation: If you are starting out, SQL and Python are non-negotiable. They provide the widest entry point into the job market.
+
+The Salary Booster: To move from a standard salary into the top tier, specializing in Infrastructure as Code (Terraform) or Container Orchestration (Kubernetes) provides the most direct path, as these skills are currently in a high-pay, lower-supply niche.
+
+Modern Data Stack: Expertise in Snowflake, Airflow, and dbt (though dbt is lower on this specific list) represents the modern data engineering core that balances high demand with premium compensation.
+
+
+
+![alt text](unnamed-2.png)
+
+
 
 ### 6. Top 5 skills frequently mentioned and skills_id with the highest count 
+
+I ingested two distinct datasets: one containing a broad list of skills with salary and demand metrics, and a second focusing on the absolute "Top 5" most frequent skills in the market.
 
 ```sql
 SELECT
@@ -331,6 +355,16 @@ LIMIT 5
 
 Here is the breakdown of the result of the top 5 skills frequently mentioned and skills_id with the highest count:
 
+Key Insights 
+- **The Big Two (SQL & Python)**: SQL and Python dominate the market, collectively accounting for over 65% of the demand among the top 5 skills. The difference between them is minimal (less than 1%), suggesting they are equally critical for modern data roles.
+
+- **Cloud Presence**: AWS holds a slight lead over Azure in market demand. Together, these cloud platforms represent a significant portion (~23%) of the required expertise, highlighting the shift toward cloud-based infrastructures.
+
+- **Data Science Tools**: Python vastly outpaces R (381k vs 131k), indicating it has become the primary language for data analysis and software integration in most professional environments.
+
+
+
+![alt text](unnamed-3.png)
 
 # Conclusions
 
